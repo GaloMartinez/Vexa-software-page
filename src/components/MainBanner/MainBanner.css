@@ -101,4 +101,28 @@
       width: 170px;
       margin-bottom: 20px;
     }
+    .vexaSoftware-mainBanner-button-green{
+      padding: 0.3rem 2.5rem; /* Añade padding al botón */
+      font-size: 1.1rem;
+      font-weight: 600;
+      /* Añade otros estilos al botón si es necesario */
+      background-color: #0D896B;
+      border-radius: 15px;
+      border: none;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+    .vexaSoftware-mainBanner-button-light{
+      padding: 0.6rem 2.5rem; /* Añade padding al botón */
+      font-size: 1rem;
+      font-weight: 600;
+      /* Añade otros estilos al botón si es necesario */
+      background-color: #fff;
+      border-radius: 15px;
+      border: none;
+      color:#0D896B;
+      display: flex;
+      align-items: center;
+    }
     }
