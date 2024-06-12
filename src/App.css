@@ -1,0 +1,13 @@
+body {
+  margin: 0; /* Elimina los márgenes predeterminados */
+  padding-top: 60px;
+}
+
+/* Asegúrate de que tus elementos de la app también tengan un fondo negro si es necesario */
+#root, .App {
+  background-color: #000; 
+  color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}

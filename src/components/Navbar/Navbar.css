@@ -1,0 +1,96 @@
+.vexaSoftware-navbar-row{
+  background-color: #141414;
+  height: 84px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.vexaSoftware-navbar-logo{
+margin-left: 30px;
+height: 80px;
+}
+
+.vexaSoftware-navbar-column-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.vexaSoftware-navbar-column-right .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.vexaSoftware-navbar-column-right .nav-links a {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.vexaSoftware-navbar-buttons {
+  padding: 0.3rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #0D896B;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger-menu {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .vexaSoftware-navbar-row{
+    background-color: #141414;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .vexaSoftware-navbar-column-right .nav-links {
+      display: none;
+  }
+  .vexaSoftware-navbar-column-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .vexaSoftware-navbar-column-right .nav-links.open {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 84px;
+      right: 0;
+      background-color: #141414;
+      width: 100%;
+      height: calc(50vh - 84px);
+      justify-content: center;
+      align-items: center;
+  }
+
+  .hamburger-menu {
+      display: flex;
+      justify-content: center;
+  }
+  .vexaSoftware-navbar-logo{
+    margin-left: 30px;
+   width: auto;
+    }
+  
+}

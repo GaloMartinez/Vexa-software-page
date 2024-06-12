@@ -1,0 +1,119 @@
+.vexaSoftware-projects-section {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; /* Asegura que el texto también se centre */
+}
+.vexaSoftware-projects-container-description{
+    width: 700px;
+    margin-bottom: 30px;
+}
+.vexaSoftware-projects-container-description h1 {
+   
+    margin-bottom: 30px;
+} 
+.vexaSoftware-projects-container-description p {
+   
+    margin-bottom: 30px;
+} 
+
+.vexaSoftware-projects-carrousel-container {
+    width: 1400px; /* Ancho fijo del carrusel */
+    height: auto; /* Altura fija del carrusel, ajusta según tus necesidades */
+    overflow: visible; /* Oculta cualquier contenido que se salga de las dimensiones del carrusel */
+
+}
+
+
+.vexaSoftware-projects-collaboration-img {
+    width: 280px; /* O el ancho que prefieras */
+    margin-top: 30px; /* Espacio entre el carrusel y la imagen de colaboración */
+    object-fit: contain; /* Mantiene la proporción sin recortar */
+    height: auto; /* Ajusta la altura automáticamente basada en el ancho para mantener la proporción */
+}
+
+.carousel-item img {
+    width: 800px; /* Asegura que la imagen cubra todo el ancho del carrusel */
+    height: 400px; /* Altura fija para la imagen */
+    object-fit: cover; /* Cambia 'fill' por 'cover' para mantener la proporción */
+    object-position: center; /* Centra la imagen dentro del elemento */
+}
+ 
+.carousel-item {
+    position: relative;
+    display: none;
+    float: none;
+  
+    /* margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    /* backface-visibility: hidden; */
+
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 5rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+   
+}
+.vexaSoftware-projects-carrousel-container .carousel-control-prev-icon,
+.vexaSoftware-projects-carrousel-container .carousel-control-next-icon {
+  filter: brightness(0) invert(1); /* Ecambiar de color flechas */
+}
+
+.carousel-control-prev {
+    left: -40px; /* Ajusta según necesites para mover la flecha fuera a la izquierda */
+}
+
+.carousel-control-next {
+    right: -40px; /* Ajusta según necesites para mover la flecha fuera a la derecha */
+}
+
+/* @media all and (max-width: 430px) {
+    .vexaSoftware-projects-carrousel-container {
+        width: 400px; 
+        height: auto; 
+        overflow: visible; 
+    }
+} */
+
+@media (max-width: 768px) {
+    .vexaSoftware-projects-container-description{
+        width: 400px;
+ 
+    }
+    
+    .carousel-item img {
+        width: 280px; /* Asegura que la imagen cubra todo el ancho del carrusel */
+        height: auto; /* Altura fija para la imagen */
+        object-fit: cover; /* Cambia 'fill' por 'cover' para mantener la proporción */
+        object-position: center; /* Centra la imagen dentro del elemento */
+    }
+    .vexaSoftware-projects-carrousel-container {
+        width: 80%; /* Ancho fijo del carrusel */
+        height: auto; /* Altura fija del carrusel, ajusta según tus necesidades */
+        overflow: visible; /* Oculta cualquier contenido que se salga de las dimensiones del carrusel */
+    
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: inline-block;
+        width: 2rem;
+    }
+}

@@ -1,0 +1,104 @@
+.vexaSoftware-mainBanner-container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+  }
+  .vexaSoftware-mainBanner-button-green, .vexaSoftware-mainBanner-button-light {
+    text-decoration: none;
+  }
+  
+  .vexaSoftware-mainBanner-content{
+    background-color: rgba(0, 0, 0, 0.027);
+    width: 1500px;
+    padding-left: 80px;
+    padding-right: 80px;
+   }
+  
+  .vexaSoftware-mainBanner-title {
+    font-size: 55px;
+    margin-bottom: 1.5rem;
+    color: #0D896B;
+    font-weight: 700;
+  }
+  
+  .vexaSoftware-mainBanner-p {
+    font-size: 1.2rem;
+  
+    /* No necesitas 'display: flex' ni 'justify-content' en el párrafo individual */
+    text-align: center;
+    max-width: 700px; /* Utiliza max-width en lugar de width para hacerlo más responsivo */
+    margin: auto; /* Esto centra el párrafo en el contenedor flex */
+    margin-bottom: 25px;
+  }
+  
+  /* ... tus otros estilos ... */
+  
+
+  .vexaSoftware-mainBanner-buttons-contain{
+      /* Alinea los botones uno al lado del otro */
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  gap: 20px;
+  }
+
+  .vexaSoftware-mainBanner-button-light{
+    padding: 0.3rem 2.2rem; /* Añade padding al botón */
+    font-size: 1.1rem;
+    font-weight: 600;
+    /* Añade otros estilos al botón si es necesario */
+    background-color: #fff;
+    border-radius: 15px;
+    border: none;
+    color:#0D896B;
+  }
+
+  .vexaSoftware-mainBanner-button-light:hover {
+    background-color: #e4e0e0;
+  color: #000;
+  }
+  .vexaSoftware-mainBanner-button-green{
+    padding: 0.3rem 2.5rem; /* Añade padding al botón */
+    font-size: 1.1rem;
+    font-weight: 600;
+    /* Añade otros estilos al botón si es necesario */
+    background-color: #0D896B;
+    border-radius: 15px;
+    border: none;
+    color: white;
+  }
+
+  .vexaSoftware-mainBanner-button-green:hover{
+    background-color: #0a775c;
+    border-color:  #0a775c;
+  }
+  @media (max-width: 768px) {
+    .vexaSoftware-mainBanner-container{
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center; /* Centra verticalmente */
+      text-align: center;
+      padding: 50px;
+      height: 100vh;
+    }
+    .vexaSoftware-mainBanner-content{
+      background-color: rgba(0, 0, 0, 0.027);
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+     }
+     .vexaSoftware-mainBanner-title {
+      font-size: 40px;
+      margin-bottom: 1.5rem;
+      color: #0D896B;
+      font-weight: 700;
+    }
+    .vexaSoftware-mainBanner-img{
+      width: 170px;
+      margin-bottom: 20px;
+    }
+    }

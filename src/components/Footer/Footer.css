@@ -1,0 +1,108 @@
+.vexaSoftware-footer-container{
+    height: 145px;
+    width: 100%;
+  margin-top: 90px;
+}
+
+.vexaSoftware-footer-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.vexaSoftware-footer-column1{
+    height: 145px;
+    background-color: #0D896B;
+    display: flex;
+    flex-direction: row;
+}
+.vexaSoftware-footer-column2{
+  height: 145px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+}
+.vexaSoftware-footer-internalColumn1 {
+    background-color: #0D896B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0; /* Agrega algo de padding vertical para separación */
+ }
+ .vexaSoftware-footer-totalGroup{
+    display: flex;
+
+   flex-direction: column;
+ }
+ 
+ .vexaSoftware-footer-group1,
+ .vexaSoftware-footer-group2 {
+     display: flex;
+     justify-content: flex-start; /* Cambiado de 'space-between' para juntar ícono y texto */
+     align-items: center;
+     width: 100%; /* Asegura que el contenedor llene el ancho de su padre */
+     padding: 0px 15px; /* Añade padding horizontal para no pegar el contenido a los bordes */
+ }
+ 
+ .vexaSoftware-footer-group1 p,
+ .vexaSoftware-footer-group2 p {
+     font-size: 25px;
+     margin-left: 10px; /* Añade un margen para separar el texto del ícono */
+   color: black;
+   font-weight: 600;
+   align-items: center;
+   padding-top: 10px;
+ }
+
+ .vexaSoftware-footer-internalColumn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .vexaSoftware-footer-internalColumn2 p{
+   font-size: 25px;
+ }
+ .vexaSoftware-footer-column2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ @media (max-width: 768px) {
+  .vexaSoftware-footer-row{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+.vexaSoftware-footer-group1 p,
+ .vexaSoftware-footer-group2 p {
+     font-size: 15px;
+     margin-left: 10px; /* Añade un margen para separar el texto del ícono */
+   color: black;
+   font-weight: 600;
+   align-items: center;
+   padding-top: 15px;
+ }
+ .vexaSoftware-footer-column1{
+  height: auto;
+  background-color: #0D896B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  }
+  .vexaSoftware-footer-internalColumn2 p{
+    font-size: 18px;
+  
+  }
+  .vexaSoftware-footer-internalColumn1 {
+    background-color: #0D896B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0; /* Agrega algo de padding vertical para separación */
+ }
+ }

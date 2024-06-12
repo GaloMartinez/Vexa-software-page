@@ -1,0 +1,188 @@
+.vexaSoftware-hiring-container {
+    display: flex;
+    flex-direction: column;
+    background-position: 50% 80%;
+    justify-content: center ; /* Centra verticalmente */
+    height: 1400px;
+  
+}
+.vexaSoftware-hiring-contain{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+  
+}
+
+
+
+.row {
+    width: 100%; /* Asegúrate de que el row ocupe el ancho total del contenedor */
+}
+
+.vexaSoftware-hiring-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Espacio distribuido entre las columnas */
+    align-items: center; /* Centrado vertical */
+    width: 70%; /* O un ancho específico si es necesario */
+    margin-top: 10px;
+}
+
+.vexaSoftware-hiring-column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal para la columna */
+    justify-content: center; /* Centrado vertical para la columna */
+}
+.vexaSoftware-hiring-column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Centrado horizontal para la columna */
+    justify-content: center; /* Centrado vertical para la columna */
+}
+
+.vexaSoftware-hiring-column2-group {
+    text-align: start; /* Alinea el texto al centro */
+    
+}
+
+.vexaSoftware-hiring-column2 h1 {
+    margin-bottom: 0.5rem; /* Espacio entre el título y el párrafo */
+    width: 550px;
+    font-size: 30px;
+    color: #1B9B86;
+}
+
+.vexaSoftware-hiring-column2 p {
+    width: 560px; /* O el ancho que prefieras para el texto */
+    font-size: 20px;
+}
+
+.vexaSoftware-hiring-row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Espacio distribuido entre las columnas */
+    align-items: center; /* Centrado vertical */
+    width: 70%; /* O un ancho específico si es necesario */
+    margin-top: 50px;
+}
+
+.vexaSoftware-hiring-column3-group {
+    text-align: start; /* Alinea el texto al centro */
+    
+}
+
+.vexaSoftware-hiring-column3 h1 {
+    margin-bottom: 0.5rem; /* Espacio entre el título y el párrafo */
+    width: 504px;
+    font-size: 30px;
+    color: #1B9B86;
+}
+
+.vexaSoftware-hiring-column3 p {
+    width: 570px; /* O el ancho que prefieras para el texto */
+    font-size: 20px;
+}
+.vexaSoftware-hiring-column4{
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width: 430px) {
+    .vexaSoftware-hiring-title{
+        text-align: center;
+    }
+    .vexaSoftware-hiring-row1 {
+        display: flex;
+        flex-direction: column;
+      width: 100%;
+        margin-top: 10px;
+    }
+    .vexaSoftware-hiring-column1 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .vexaSoftware-hiring-column2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centrado horizontal para la columna */
+         /* Centrado vertical para la columna */
+    }
+    .vexaSoftware-hiring-image{
+        height: auto;
+        width: 300px;
+    }
+    .vexaSoftware-hiring-column2-group {
+        text-align: start; /* Alinea el texto al centro */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .vexaSoftware-hiring-column2 h1 {
+        margin-bottom: 0.5rem; /* Espacio entre el título y el párrafo */
+        width: 400px;
+        font-size: 30px;
+        color: #1B9B86;
+        text-align: start;
+    }
+    
+    .vexaSoftware-hiring-column2 p {
+        width: 400px; /* O el ancho que prefieras para el texto */
+        font-size: 20px;
+    }
+
+    .vexaSoftware-hiring-row2{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+.vexaSoftware-hiring-column3{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal para la columna */
+    justify-content: center;
+}
+    
+    .vexaSoftware-hiring-column3 h1 {
+        margin-bottom: 0.5rem; /* Espacio entre el título y el párrafo */
+        width: 400px;
+        font-size: 30px;
+        color: #1B9B86;
+    }
+    
+    .vexaSoftware-hiring-column3 p {
+        width: 400px; /* O el ancho que prefieras para el texto */
+        font-size: 20px;
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .vexaSoftware-hiring-column2 p {
+        width: 400px; /* O el ancho que prefieras para el texto */
+        font-size: 15px;
+    }
+    .vexaSoftware-hiring-column2 h1{
+        font-size: 25px;
+    }
+    .vexaSoftware-hiring-column3 p {
+        width: 400px; /* O el ancho que prefieras para el texto */
+        font-size: 15px;
+    }
+    .vexaSoftware-hiring-column3 h1{
+        font-size: 25px;
+    }
+    .vexaSoftware-hiring-image{
+        height: auto;
+        width: 250px;
+    }
+    .vexaSoftware-hiring-container {
+      
+        height: 1200px;
+      
+    }
+}

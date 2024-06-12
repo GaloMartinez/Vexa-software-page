@@ -1,0 +1,15 @@
+.custom-alert {
+  background-image: linear-gradient(to bottom right, #fc8181, #e53e3e);
+  text-align: center;
+  padding: 1.25rem;
+  text-transform: uppercase;
+  font-size: 20px !important;
+  font-family: 'Source Sans 3', sans-serif;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.custom-alert.sky {
+  background-image: linear-gradient(to bottom right, #63b3ed, #3182ce);
+}
